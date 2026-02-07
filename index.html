@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>For Jackie 💖</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="app">
+
+  <!-- GREETING -->
+  <div class="screen active" id="greeting">
+    <h1>Hello Jackie! 💕</h1>
+  </div>
+
+  <!-- START -->
+  <div class="screen" id="start">
+    <button class="main-btn" onclick="goToIntro()">Click Here to Start 💖</button>
+  </div>
+
+  <!-- INTRO -->
+  <div class="screen" id="intro">
+    <div class="card">
+      <h2>Pass these levels to unlock a secret message 💌</h2>
+      <button class="main-btn" onclick="startGame()">Let’s Go ✨</button>
+    </div>
+  </div>
+
+  <!-- GAME / TRIVIA / FINAL -->
+  <div class="screen" id="game"></div>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
